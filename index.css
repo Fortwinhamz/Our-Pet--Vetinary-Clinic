@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: #00214D;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+
+a:hover{
+  color: #3781E3;
+}
+
+.btn{
+  padding: 20px 29px;
+  background-color: #3781E3;
+  color: #fff;
+  border-radius: 20px;
+  transition: all .5s ease-in-out;
+}
+
+.btn:hover{
+  transition: all .4s ease-out;
+  color: #3781E3;
+  background-color: #fff;
+}
+.container{
+  max-width: 1300px;
+  margin: auto;
+  background: #D5E5F5;
+  padding-left:25px ;
+  padding-right: 25px;
+}
+.page-heading{
+  font-family: 'Pacifico', cursive;
+  color: #3781E3;
+  font-size: 2rem;
+}
+#home{
+  background: #D5E5F5;
+  padding: 0px 30px;
+}
+#home #navbar{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+#home #navbar nav{
+  flex: 1;
+  text-align: right;
+}
+
+#home #navbar nav ul{
+  display: inline-block;
+  list-style-type: none;
+  
+}
+
+#home #navbar nav ul li{
+  display: inline-block;
+  margin-right: 20px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+/* #home #navbar nav ul li a{
+  cursor: pointer;
+} */
+.home-text {
+  display: flex;
+  margin: 30px;
+}
+
+.home-text h1{
+  font-size: 50px;
+  color: #00214D;
+  margin: 30px 0;
+}
+
+.home-text .mini-texts{
+  margin: 50px 0;
+  width: 400px;
+  color: #3A3A3ABF;
+}
+
+
+.home-text .vet{
+  font-weight: bold;
+}
+
+.home-text .vet:before{
+   content:"---------";
+    color:#00214D; 
+}
+
+.row2{
+  margin-top: -200px;
+  margin-left: 100px;
+}
+
