@@ -7,6 +7,7 @@
   box-sizing: border-box;
   font-family: 'Plus Jakarta Sans', sans-serif;
   list-style-type: none;
+  overflow-x: hidden;
 }
 
 p{
@@ -34,7 +35,8 @@ p{
   --nav-background: #D5E5F5;
   --color: #3781E3;
   --font-size: 1.2rem;
-  --padding: 5px 10px;
+  --padding: 10px;
+  --height: 0px;
 }
 
 
@@ -44,6 +46,7 @@ p{
   justify-content: space-between;
   position: fixed;
   width: 100%;
+  /* overflow: hidden; */
   background: #D5E5F5;
   z-index: 100;
   padding: 0 1.5rem;
@@ -129,4 +132,144 @@ nav .menu.active span:nth-child(2) {
 }
 
 
-@media (max-width:910px)
+@media (max-width:910px){
+  #navbar .menu{
+    display: flex;
+  }
+
+  #navbar nav ul{
+    height: 0px;
+    flex-direction: column;
+    background: var(--nav-background);
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 76%;
+    height: var(--height);
+    transition: 1s ease-in-out;
+  }
+
+  #navbar nav ul.active{
+    height: calc((((var(--padding) * 2) + (var(--font-size) * 1.5))) * var(--childenNumber));
+        /*   (Block Level Padding + The Font Size) * The Number of Children = 109.6  */
+
+        transition: 1.2s ease-in-out;
+  }
+
+  #navbar nav ul li{
+    width: 100%;
+    text-align: center;
+  }
+
+  #navbar nav ul li a{
+    width: 100%;
+    text-transform: capitalize;
+  }
+}
+
+
+.home-text{
+  background: #D5E5F5;
+  padding: 0 1.5rem;
+  padding-top: 8rem;
+}
+.long-line-container{
+  padding-top: 3rem;
+  width: 55vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.long-line{
+  width: 15rem;
+  height: 2px;
+  background-color: #00214d;
+}
+
+
+.long-line-container p{
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 600;
+}
+
+.home-text h1{
+  font-size: 2.8em;
+  margin: 1.5rem 0;
+  height: 130%;
+  line-height: 3.4rem;
+}
+
+.mini-texts{
+  color: #3A3A3A;
+  opacity: 75%;
+  margin-bottom: 2rem;
+}
+
+.btn{
+  background-color: #3781E3;  
+  border: 1px solid #3781E3;
+  border-radius: .6rem;
+  letter-spacing: .1rem;
+  width: 40%;
+  height: 8vh;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.btn:hover{
+  color: #3781E3;
+  background-color: #fff;
+}
+
+
+.puppy-image img{
+    width: 100%;
+    margin-top: -6rem;
+}
+
+#Services{
+  background: #E9F4FF;
+  padding: 2rem 1.5rem;
+}
+
+
+#Services h2{
+  color: #00214d;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  text-align: center;
+  margin: 1rem auto;
+  font-size: 2rem;
+}
+
+
+#Services p{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #3A3A3A;
+  padding-bottom: 1rem;
+}
+
+.services-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.services{
+  background-color: #fff;
+  margin: 1.5rem 0;
+  width: 85%;
+  height: 20rem;
+  border-radius: .6rem;
+  transition: .3s ease-in-out;
+  padding: 1.5rem;
+}
+
+.services:hover{
+  box-shadow: 2px 2px 10px #999999;
+}
