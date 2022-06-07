@@ -273,3 +273,30 @@ nav .menu.active span:nth-child(2) {
 .services:hover{
   box-shadow: 2px 2px 10px #999999;
 }
+
+.services h5{
+  color: #00214d;
+  font-size: 1.2rem;
+  padding: 1rem 0;
+}
+
+.services p{
+  text-align: left;
+  color: #3A3A3A;
+}
+
+.circle{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  background-color: rgba(20, 78, 155, 0.15);
+  margin-bottom: 4rem;
+}
+
+.circle img{
+  width: 70%;
+}
