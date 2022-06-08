@@ -264,7 +264,7 @@ nav .menu.active span:nth-child(2) {
   background-color: #fff;
   margin: 1.5rem 0;
   width: 85%;
-  height: 20rem;
+  height: 22rem;
   border-radius: .6rem;
   transition: .3s ease-in-out;
   padding: 1.5rem;
@@ -300,3 +300,249 @@ nav .menu.active span:nth-child(2) {
 .circle img{
   width: 70%;
 }
+
+#About{
+  background-color: #AECEF4;
+  padding: 2rem 1.5rem;
+  position: relative;
+}
+
+
+#About .dr-info-popUp{
+  position: absolute;
+  z-index: 20;
+}
+
+.doctor-image{
+  width: 90%;
+}
+
+
+.doctor-image img{
+  padding-top: 3rem;
+  width: 100%;
+}
+
+
+.doctor-text h2{
+  font-weight: 700;
+  font-size: 2.5rem;
+  padding: 1rem 0;
+}
+
+.doctor-text p{
+  font-weight: 300;
+  color: #3A3A3A;
+  padding-bottom: 1.5rem;
+}
+
+
+.reviews{
+  background-color: #fff;
+}
+
+
+.reviews-header{
+  background-color: #E9F4FF;
+}
+
+
+.reviews h2{
+  font-weight: 500;
+    font-size: 1.95rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+
+.testimonials-container{
+  display: flex;
+  flex-direction: column;
+}
+.testimonial{
+  padding: 2rem 3rem;
+}
+.testimonial img{
+  width: 20%;
+  margin-bottom: 2rem;
+} 
+.testimonial h5{
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.testimonial p{
+  text-align: center;
+  padding: .6rem 0;
+}
+.user-info{
+display: flex;
+flex-direction: row;
+justify-content: center;
+  width: 50%;
+  height: 50%;
+  padding: 2rem 0;
+  margin-top: 2rem;
+}
+.username{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.username img{
+  width: 30%;
+  align-self: center;
+  margin: 0;
+  border-radius: 50%;
+
+}
+.rating{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.rating p{
+  font-size: .7rem;
+  margin-left: .5rem;
+}
+.rating img{
+margin: 0;
+width: 14%;
+}
+.next-comment{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.doctors{
+  background-color: #D5E5F5;
+  padding: 2rem 1.5rem;
+}
+.doctor-section-head{
+  margin: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.doctor-section-head h2{
+  font-weight: 500;
+  font-size: 2.5rem;
+ width: 70%;
+}
+.doctor-section-head p{
+  font-weight: 700;
+  font-size: 1rem;
+  color: #3781E3;
+}
+.doctor-section{
+  display: flex;
+  flex-direction: column;
+}
+.doctor-section img{
+padding-bottom: 1rem;
+}
+.doctor-section h3{
+font-weight: 700;
+font-size: 1.5rem;
+color: #00214D;
+}
+.doctor-section p{
+font-weight: 500;
+  font-size: 1rem;
+  color: rgba(58, 58, 58, 1);
+}
+
+
+.subscribe{
+  background-color: #E9F4FF;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe-section-container{
+  background-color: rgba(202, 223, 248, 1);
+  margin: 0 auto;
+  width: 80%;
+  padding: 2.5rem 1rem;
+  border-radius: 1rem;
+}
+.subscribe-section-container h2{
+  text-align: center;
+  font-size: 1.6rem;
+  padding-bottom: 2rem;
+}
+.form-button-container{
+  background-color: white;
+  border-radius: 1rem;
+  width: 100%;
+  margin: 0 auto;
+}
+.form-button-container #email{
+  font-size: 1rem;
+  margin-left: 1.7rem;
+  border: none;
+  height: 8vh;
+  width: 50%;
+}
+.submit{
+  letter-spacing: .1rem;
+      width: 30%;
+      height: 6vh;
+}
+
+
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+  width: 100%;
+  flex-wrap: wrap;
+  background-color: rgba(213, 229, 245, 1);
+margin: 0 auto;
+}
+.logo img{
+  width: 100%;
+}
+.foot{
+  font-size: 1rem;
+  text-align: center;
+  padding-bottom: 2.5rem;
+}
+.foot h3{
+  font-size: 1.5rem;
+}
+.foot p{
+  padding-top: .5rem;
+      font-size: 1rem;
+}
+.social-container{
+  background-color: rgba(213, 229, 245, 1);
+  padding: 1rem 0;
+}
+.social-icons, .line2, .copyright{
+  text-align: center;
+  margin: 0 auto;
+}
+.social-icons{
+  padding-bottom: .6rem;
+}
+.social-icons img{
+  width: 5%;
+}
+.line2{
+ width: 70vw;
+      height: .9px;
+background-color: #00214d;
+}
+.copyright{
+width: 65%;
+  font-size: .8rem;
+  padding: .5rem 0;
+}
+
