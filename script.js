@@ -1,9 +1,9 @@
-const navigation = document.getElementById("nav");
+const navigation = document.getElementById("navbar");
 const menu = document.getElementById("menu");
-
+console.log(navigation)
 menu.addEventListener("click", () => {
 
-
-  navigation.classList.toggle("active");
-  menu.classList.toggle("active");
+  // navigation.style.setProperty("--childenNumber", navigation.children.length);
+  navigation.classList.add("active");
+  menu.classList.add("active");
 });
