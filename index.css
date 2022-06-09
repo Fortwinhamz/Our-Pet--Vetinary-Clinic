@@ -214,6 +214,7 @@ nav .menu.active span:nth-child(2) {
   border-radius: .6rem;
   letter-spacing: .1rem;
   width: 40%;
+  transition: .7s ease-in-out;
   height: 8vh;
   color: #fff;
   cursor: pointer;
@@ -442,6 +443,7 @@ width: 14%;
 }
 .doctor-section img{
 padding-bottom: 1rem;
+
 }
 .doctor-section h3{
 font-weight: 700;
@@ -546,3 +548,253 @@ width: 65%;
   padding: .5rem 0;
 }
 
+@media only screen and (min-width: 767px) {
+  .long-line-container{
+      width: 48.5vw;
+  }
+  .long-line-container p{
+      font-size: 1.5rem;
+  }
+  .home-text{
+      padding-top: 8rem;
+  }
+  .home-text h1{
+      font-size: 4.5rem;
+      line-height: 6rem;
+  }
+  .home-text p{
+          font-size: 1.2rem;
+      }
+  .btn{
+      width: 26%;
+      height: 3.8rem;
+  }
+  .puppy-image{
+      margin-top: -10rem;
+  }
+  #Services h2{
+      font-size: 2.5rem;
+  }
+  .services{
+  width: 60%;
+  }
+  .circle{
+      width: 9.5vw;
+          height: 4.5rem;
+  }
+    .doctor-info-PopUp {
+        position: absolute;
+       top: 12%;
+       left: 14%;
+    }
+    #About{
+        padding-bottom: 4rem;
+    }
+    #About p{
+     width: 95%;
+    }
+    .testimonials-container {
+        display: flex;
+        flex-direction: row;
+    }
+    .testimonial{
+        max-width: 50%;
+  }
+  .doctor-section-head{
+      padding: 0 1rem;
+  }
+  .doctor-section{
+      width: 90%;
+      margin: 0 auto;
+      padding-bottom: 1.3rem;
+  }
+  #email{
+      height: 4rem;
+  }
+  .submit{
+      margin-left: 5.5rem;
+      height: 4rem;
+      padding: .5rem 0;
+  }
+  
+  .foot h3 {
+      font-size: 2rem;
+  }
+  
+  .foot p {
+      padding-top: .5rem;
+      font-size: 1.5rem;
+  }
+  .social-icons img{
+          width: 8%;
+  }
+  .form-button-container{
+      padding: 1rem 0;
+  }
+  }
+  
+
+  @media only screen and (min-width: 910px) {
+
+    .logo{
+        width: 11vw;
+    }
+     .home-text{
+         display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center; 
+        padding: 2rem 5rem;
+        padding-top: 8rem;
+    } 
+    .puppy-image img{
+        margin-top: -1rem;
+    width: 50%;
+    height: auto;
+    }
+    .home-text-container{
+        width: 70%;
+    }
+    .long-line-container {
+        width: 25rem;
+    }
+
+    .long-line-container p {
+        font-size: 1.5rem;
+    }
+
+    .home-text h1 {
+        font-size: 4.5rem;
+        line-height: 6rem;
+    }
+
+    .home-text p {
+        font-size: 1.2rem;
+    }
+
+    .btn {
+        width: 26%;
+        height: 3.8rem;
+    }
+    #Services h2 {
+        font-size: 2.5rem;
+    }
+.offer-container{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+padding: 0rem 5rem;
+}
+    .offer {
+        width: 31%;
+    }
+      .circle {
+        width:3rem;
+        height: 3rem;
+    }  
+    .doctor-info-PopUp {
+        position: absolute;
+        top: 10%;
+        left: 7%;
+    }
+    #About {
+        display: flex;
+        justify-content: center;
+    align-items: center;
+    padding: 0 5rem 4rem ;
+}
+.doctor-img{
+    height: 90%;
+    padding: 0;
+    margin: 0;
+}
+.doctor-img img{
+    width: 70%;
+    max-height: 50rem;
+    padding: 0;
+    margin: 0;
+    margin-left: 5rem;
+}
+.doctor-text{
+    width: 70%;
+}
+#About p {
+        width: 95%;
+    }
+    .testimonials-container {
+        display: flex;
+        flex-direction: row;
+        padding: 3rem 5rem;
+    }
+    .testimonial {
+        max-width: 50%;
+    }
+    .doctor-section-head {
+        width: 95%;
+        padding: 0 5rem;
+    }
+.doctor-section-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+}
+    .doctor-section {
+        width: 30%;
+        margin: 0 auto;
+        padding-bottom: 1.3rem;
+    }
+    .subscribe-section{
+      padding: 5rem;
+      height: 30rem;
+    }
+    .subscribe-section-container {
+        width: 95%;
+        padding:5rem;
+        border-radius: 1rem;
+    }
+    #email {
+        height: 4rem;
+    }
+
+    .submit {
+        margin-left: 9rem;
+        height: 4rem;
+        padding: .5rem 0;
+    }
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+padding: 5rem;
+}
+.foot{
+    width: 12%;
+}
+    .foot h3 {
+        font-size: 2rem;
+    }
+
+    .foot p {
+        padding-top: .5rem;
+        font-size: 1rem;
+    }
+    .location{
+        text-align: center;
+    }
+.team{
+    text-align: center;
+}
+    .social-icons img {
+        width: 3.5%;
+    }
+.line2{
+    width: 30rem;
+}
+    .form-button-container {
+        padding: 1rem 0;
+    }
+}
