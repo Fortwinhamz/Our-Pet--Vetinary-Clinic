@@ -14,12 +14,68 @@ p{
   font-family: 'Poppins', sans-serif;
 }
 
-
+header a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 
 .page-heading{
   font-family: 'Pacifico', cursive;
   color: #3781E3;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  padding-left: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.logo {
+  font-size: 1.8rem;
+  color: rgb(5, 5, 116);
+  padding-left: 20px;
+}
+
+.hamburger {
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.hamburger .line {
+  display: block;
+  width: 35px;
+  height: 3px;
+  margin-bottom: 10px;
+  background-color: #3781E3;
+}
+
+.nav__link {
+  position: fixed;
+  width: 94%;
+  top: 5rem;
+  left: 18px;
+  background-color: #AECEF4;
+}
+
+.nav__link a {
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+  color: #fff;
+}
+
+.nav__link a:hover {
+  background-color: #3781E3;
+}
+
+.hide {
+  display: none;
 }
 
 /* Responsive Navbar */
@@ -39,14 +95,14 @@ p{
   --height: 0px;
 }
 
-
+/* 
 #navbar{
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: fixed;
   width: 100%;
-  /* overflow: hidden; */
+  overflow: hidden; 
   background: #D5E5F5;
   z-index: 100;
   padding: 0 1.5rem;
@@ -58,9 +114,9 @@ p{
     z-index: 999;
     background: red;
     height: 100vh;
-}
+} */
     
-
+/* 
 
 
 #navbar nav ul{
@@ -139,10 +195,29 @@ nav .menu.active span:nth-child(3) {
 
 nav .menu.active span:nth-child(2) {
   transform: scale(0);
+} */
+
+@media screen and (min-width: 600px) {
+  .nav__link {
+    display: block;
+    position: static;
+    width: auto;
+    transition: .7s ease-in-out;
+    margin-right: 20px;
+    background: none;
+  }
+
+  .nav__link a {
+    display: inline-block;
+    padding: 15px 20px;
+  }
+
+  .hamburger {
+    display: none;
+  }
 }
 
-
-@media (max-width:910px){
+/* @media (max-width:910px){
   #navbar .menu{
     display: flex;
   }
@@ -161,7 +236,7 @@ nav .menu.active span:nth-child(2) {
 
   #navbar nav ul.active{
     height: calc((((var(--padding) * 2) + (var(--font-size) * 1.5))) * var(--childenNumber));
-        /*   (Block Level Padding + The Font Size) * The Number of Children = 109.6  */
+         
 
         transition: 1.2s ease-in-out;
   }
@@ -176,7 +251,7 @@ nav .menu.active span:nth-child(2) {
     text-transform: capitalize;
   }
 }
-
+ */
 
 .home-text{
   background: #D5E5F5;
@@ -559,6 +634,30 @@ width: 65%;
 }
 
 @media only screen and (min-width: 767px) {
+
+
+  .nav__link {
+    position: absolute;
+    width: 94%;
+    /* top: 5rem;
+    left: 18px; */
+    /* background-color: #AECEF4; */
+  }
+  
+  .nav__link a {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0;
+    color: #3781E3;
+  }
+  
+  .nav__link a:hover {
+    background-color: #3781E3;
+  }
+  
+  .hide {
+    /* display: none; */
+  }
   .long-line-container{
       width: 48.5vw;
   }
@@ -646,6 +745,29 @@ width: 65%;
 
   @media only screen and (min-width: 910px) {
 
+
+    .nav__link {
+      position: fixed;
+      width: 94%;
+      top: 5rem;
+      left: 18px;
+      background-color: #AECEF4;
+    }
+    
+    .nav__link a {
+      display: block;
+      text-align: center;
+      padding: 10px 0;
+      color: #fff;
+    }
+    
+    .nav__link a:hover {
+      background-color: #3781E3;
+    }
+    
+    .hide {
+      display: none;
+    }
     .logo{
         width: 11vw;
     }
