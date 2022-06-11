@@ -447,6 +447,7 @@ nav .menu.active span:nth-child(2) {
 }
 .testimonial{
   padding: 2rem 3rem;
+  overflow: hidden;
 }
 .testimonial img{
   width: 20%;
